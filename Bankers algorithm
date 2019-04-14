@@ -1,0 +1,24 @@
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+ int n,r, i,j,s,f,count,avail[10],p[10]; 
+
+ printf("\nEnter the number of process :");
+ scanf("%d",&n);
+ printf("\n Enter the no. of resources available : ");
+ scanf("%d",&r);
+ int need[n][r],alloc[n][r],max[n][r];
+
+ printf("\n Enter allocation matrix  \n");
+ for(i=0;i<n;i++)
+ {
+ printf("p%d",i+1);         
+  p[i]=0;
+ for(j=0;j<r;j++)
+ {
+  scanf("%d",&alloc[i][j]);
+ }
+}
+  printf("\n Enter MAX matrix  \n");
+}
