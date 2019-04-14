@@ -21,4 +21,12 @@ int main()
  }
 }
   printf("\n Enter MAX matrix  \n");
-}
+ for(i=0;i<n;i++)
+ {
+ printf("p%d",i+1);
+ for(j=0;j<r;j++)
+ {
+  scanf("%d",&max[i][j]);
+ }
+ }
+ 
